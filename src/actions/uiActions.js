@@ -1,6 +1,6 @@
 import { types } from "../types/types"
 
-export const openModalAction = () => {
+export const uiOpenModalAction = () => {
     return {
         payload:{
             openModal:true
@@ -9,7 +9,7 @@ export const openModalAction = () => {
     }
 }
 
-export const closeModalAction = () => {
+export const uiCloseModalAction = () => {
     return {
         payload:{
             openModal:false
